@@ -83,12 +83,14 @@
     waybar
     grim
     slurp
+    awww
+    waypaper
     kdePackages.kate
     kdePackages.dolphin
     kdePackages.polkit-kde-agent-1
   ];
 
-  
+  fonts.packages = [ pkgs.nerd-fonts.jetbrains-mono ];  
 
 
   system.stateVersion = "26.05";
