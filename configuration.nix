@@ -78,6 +78,7 @@
     wget
     git
     alacritty
+    foot
     kitty
     waybar
     grim
