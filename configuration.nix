@@ -51,6 +51,8 @@
 
   programs.firefox.enable = true;
 
+  # programs.waybar.enable = true;
+
   programs.hyprland = {
   enable = true;
   withUWSM = true;
@@ -77,6 +79,9 @@
     git
     alacritty
     kitty
+    waybar
+    grim
+    slurp
     kdePackages.kate
     kdePackages.dolphin
     kdePackages.polkit-kde-agent-1
