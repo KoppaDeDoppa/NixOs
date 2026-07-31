@@ -77,6 +77,8 @@
   environment.systemPackages = with pkgs; [
     wget
     git
+    neovim
+    vim
     alacritty
     foot
     kitty
